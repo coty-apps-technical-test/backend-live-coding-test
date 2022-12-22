@@ -1,0 +1,17 @@
+{
+  "name": "lumos-backend-live-coding-test",
+  "version": "1.0.0",
+  "repository": "https://github.com/coty-apps-technical-test/backend-live-coding-test",
+  "author": "Damien Soulard",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "client": "node src/client.js",
+    "server": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "2.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
